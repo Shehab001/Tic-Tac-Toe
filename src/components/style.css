@@ -290,3 +290,214 @@
 
   border-radius: 8px;
 }
+
+/* New Game */
+.ng {
+  position: absolute;
+  width: 255px;
+  height: 32px;
+  left: 24px;
+  top: 24px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: -0.05em;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.ng1 {
+  position: absolute;
+  width: 205px;
+  height: 160px;
+  left: 81px;
+  top: 231px;
+
+  font-family: "Bilbo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.ng3 {
+  /* Yellow */
+
+  background: #f2c94c;
+  /* Drop Shadow 1 */
+
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+/* home new user */
+.hnu {
+  position: absolute;
+  width: 126px;
+  height: 14px;
+  left: 24px;
+  top: 75px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.hnu1 {
+  position: absolute;
+  width: 255px;
+  height: 64px;
+  left: 24px;
+  top: 98px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  /* or 114% */
+
+  letter-spacing: -0.05em;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.hnu2 {
+  position: absolute;
+  width: 44px;
+  height: 14px;
+  left: 24px;
+  top: 202px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.hnu3 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 4px;
+
+  position: absolute;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 228px;
+
+  /* Smoke Grey */
+
+  background: #e5e0e0;
+  border-radius: 8px;
+}
+
+.hnu4 {
+  position: absolute;
+  width: 328px;
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  /* Yellow */
+
+  background: #f2c94c;
+  /* Drop Shadow 1 */
+
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+/* Game Page */
+
+.gp {
+  position: absolute;
+  width: 255px;
+  height: 32px;
+  left: 24px;
+  top: 72px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: -0.05em;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+.gp1 {
+  position: absolute;
+  width: 73px;
+  height: 18px;
+  left: 24px;
+  top: 112px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #333333;
+}
+.gp2 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 24px;
+  top: 138px;
+}
+.gp3 {
+  position: absolute;
+  width: 327.88px;
+  height: 47.29px;
+  top: 220px;
+
+  background: #ffe79e;
+}
+.gp4 {
+  position: absolute;
+  width: 340px;
+
+  top: 280px;
+}
+.gp5 {
+  height: 340px;
+}
+div.gp4 * {
+  border-color: #ffe79e;
+}
