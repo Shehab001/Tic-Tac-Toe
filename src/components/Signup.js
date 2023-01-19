@@ -3,6 +3,7 @@ import React, { useContext, useState } from "react";
 
 // import { Link, useLocation, useNavigate } from "react-router-dom";
 // import Loader from "../Loader";
+import "./style.css";
 
 import {
   getAuth,
@@ -73,113 +74,81 @@ const Signup = () => {
   };
 
   return (
-    <div>
-      {spinn ? (
-        <div className="w-96 my-20 mx-auto">{/* <Loader></Loader> */}</div>
-      ) : (
-        <div className="form">
-          <h1 className="text-4xl m-10 text-white underline">Sign Up Form</h1>
-          {/* onSubmit={handleForm} */}
-          <form onSubmit={handleForm}>
-            <div className="mb-6">
-              <label
-                htmlFor="name"
-                className="text-left block mb-2 text-sm font-medium text-white dark:text-gray-300"
-              >
-                Your Full Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="nam"
-                className="bg-black border w-80 border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Full Name"
-                required
-              ></input>
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="email"
-                className="text-left block mb-2 text-sm font-medium text-white dark:text-gray-300"
-              >
-                Your email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="bg-black border w-80 border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="name@......com"
-                required
-              ></input>
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="password"
-                className="text-left block mb-2 text-sm font-medium text-white dark:text-gray-300"
-              >
-                Your password
-              </label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                className="  bg-black border w-80 border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Password"
-                required
-              ></input>
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="name"
-                className="text-left block mb-2 text-sm font-medium text-white dark:text-gray-300"
-              >
-                Image Url
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="url"
-                className="bg-black border w-80 border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Image Url"
-                required
-              ></input>
-            </div>
-            <div className="flex items-start mb-6">
-              <div className="flex items-center h-5">
-                <input
-                  id="remember"
-                  type="checkbox"
-                  value=""
-                  className="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
-                  required
-                ></input>
-              </div>
-              <label
-                htmlFor="remember"
-                className="ml-2 text-sm font-medium text-white dark:text-gray-300"
-              >
-                Remember me
-              </label>
-            </div>
-            <p className="text-red-800 font-semibold">{error}</p>
-            {success && (
-              <p className="text-red-800">User Created Successfully</p>
-            )}
-            <p>{error}</p>
-            <p className=" text-white mb-5">
-              <small className="mr-5">Already Have an account?</small>
-              {/* <Link to="/login"> Log In</Link> */}
-            </p>
-            <button
-              type="submit"
-              className=" mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
-      )}
+    <div className="container mx-10 mt-10">
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill=""
+          className="w-7 h-7 -ml-5 -mt-5"
+        >
+          <path
+            fillRule="evenodd"
+            d="M20.25 12a.75.75 0 01-.75.75H6.31l5.47 5.47a.75.75 0 11-1.06 1.06l-6.75-6.75a.75.75 0 010-1.06l6.75-6.75a.75.75 0 111.06 1.06l-5.47 5.47H19.5a.75.75 0 01.75.75z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </div>
+      <div className="heading">
+        <h1 className="ca text-left">Create Account</h1>
+        <h1 className="content text-left">Let's Get To Know You Better</h1>
+      </div>
+
+      <div className="signup">
+        <form action="">
+          <label className="l1" htmlFor="yourname">
+            Your Name :
+          </label>
+          <br></br>
+          <input
+            className="i1"
+            type="text"
+            id="yourname"
+            name="yourname"
+            placeholder="Type Your Name Here"
+          ></input>
+          <label className="l2" htmlFor="username">
+            Username :
+          </label>
+          <br></br>
+          <input
+            className="i2"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Type Your UserName Here"
+          ></input>
+          <br></br>
+          <label className="l3" htmlFor="email">
+            Email :
+          </label>
+          <br></br>
+          <input
+            className="i3"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Type Your Email  Here"
+          ></input>
+          <label className="l4" htmlFor="pwd">
+            Password :
+          </label>
+          <br></br>
+          <input
+            className="i4"
+            type="password"
+            id="pwd"
+            name="pwd"
+            placeholder="Type Your Password Here"
+          ></input>
+          <br></br>
+          <input
+            className="register m-5 text-white cursor-pointer"
+            type="submit"
+            value="Register"
+          ></input>
+        </form>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,292 @@
+.nam {
+  position: absolute;
+  width: 53px;
+  height: 45px;
+  left: 40%;
+  top: 25%;
+  margin-left: 50px;
+
+  font-family: "Bilbo", cursive;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #000000;
+}
+.nam1 {
+  position: absolute;
+  width: 156px;
+  height: 240px;
+  left: 40%;
+  top: 32%;
+
+  font-family: "Bilbo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.b1 {
+  position: absolute;
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  top: 79%;
+
+  /* Yellow */
+
+  background: #f2c94c;
+  /* Drop Shadow 1 */
+
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+.b2 {
+  position: absolute;
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  top: 90%;
+
+  /* Blue 1 */
+
+  background: #2f80ed;
+  /* Drop Shadow 1 */
+
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+/* Signup */
+
+.icon {
+  position: absolute;
+  left: 26.03%;
+  right: 29.21%;
+  top: 10.93%;
+  bottom: 10.89%;
+
+  /* Dark Grey */
+
+  background: #333333;
+}
+
+.ca {
+  position: absolute;
+  width: 114px;
+  height: 14px;
+  left: 24px;
+  top: 75px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.content {
+  position: absolute;
+  width: 255px;
+  height: 64px;
+  left: 24px;
+  top: 98px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  /* or 114% */
+
+  letter-spacing: -0.05em;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.l1 {
+  position: absolute;
+  width: 76px;
+  height: 14px;
+  left: 24px;
+  top: 201px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+.l2 {
+  position: absolute;
+  width: 73px;
+  height: 14px;
+  left: 24px;
+  top: 299px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.i1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 4px;
+
+  position: absolute;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 227px;
+
+  /* Smoke Grey */
+
+  background: #e5e0e0;
+  border-radius: 8px;
+}
+.i2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 4px;
+
+  position: absolute;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 325px;
+
+  /* Smoke Grey */
+
+  background: #e5e0e0;
+  border-radius: 8px;
+}
+.l3 {
+  position: absolute;
+  width: 66px;
+  height: 14px;
+  left: 24px;
+  top: 397px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.i3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 4px;
+
+  position: absolute;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 423px;
+
+  /* Smoke Grey */
+
+  background: #e5e0e0;
+  border-radius: 8px;
+}
+
+.l4 {
+  position: absolute;
+  width: 69px;
+  height: 14px;
+  left: 24px;
+  top: 495px;
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Dark Grey */
+
+  color: #333333;
+}
+
+.i4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 16px;
+  gap: 4px;
+
+  position: absolute;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 521px;
+
+  /* Smoke Grey */
+
+  background: #e5e0e0;
+  border-radius: 8px;
+}
+.register {
+  width: 328px;
+  position: absolute;
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  top: 585px;
+
+  /* Yellow */
+
+  background: #f2c94c;
+  /* Drop Shadow 1 */
+
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+}
+
+/* reg-Success */
+
+.success {
+  position: absolute;
+  width: 328px;
+  height: 74px;
+  left: 16px;
+  top: 500px;
+
+  /* Green 3 */
+
+  border-radius: 8px;
+}
